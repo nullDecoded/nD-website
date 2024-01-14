@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Tektur:wght@400;700&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+html {
+ background-color: rgb(55, 59, 64);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+#img-container {
+    background-color: rgba(118, 129, 139, .35);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px inset blanchedalmond, 5px 5px 5px silver;
+}
+
+footer {
+    position: absolute;
+    right: 25px;
+    margin: 3em .5em;
+    padding: 1em .5em;
+    background-color: rgb(12, 84, 147);
+    text-align: end;
+}
+
+footer span {
+    font-family: 'Tektur', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+}
